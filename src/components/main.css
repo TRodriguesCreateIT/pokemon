@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.Search{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.searchInputs{
+    
+    display:block;
+    background-color: rgb(255, 191, 94);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.search input{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    outline: none;
+    background-color: white;
+    border:0;
+    border-radius: 4px;
+   
+    font-size: 18px;
+    padding: 15px;
+    height: 30px;
+    width:300px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+
+.normal{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 10px;
+    background-color: darkorange;
+    border:0;
+    color: white;
+    border-radius: 4px;
+    /* border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px; */
+    font-size: 18px;
+    
+    height: 40px;
+    width:200px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+.photo {
+    height: 10%;
+    width: 10%; 
+}
+
+
+
+
+
+
+
+#clearBtn{
+    cursor:pointer
+}
+
+
+
+
+button:hover{
+    background-color: #cf9865;
+    cursor: pointer;
+}
+
+
+
+.DisplaySection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+
+.DisplaySection h4, h3, h1, h2{
+    margin:2px
+}
+
+.DisplaySection img{
+    margin-top:10px;
+    margin-bottom:10px
+}

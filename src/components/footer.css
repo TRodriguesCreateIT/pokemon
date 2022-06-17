@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+.footerBackgound{
+    background-color: darkgrey;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: fixed;
+    height: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.footerText{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    text-align: center;
+    
+}
